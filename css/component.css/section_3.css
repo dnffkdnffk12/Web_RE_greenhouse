@@ -1,0 +1,132 @@
+.box{
+    width: 265px;
+    height: 265px;
+    border: 1px solid #E1E1E1;
+    background-color: white;
+}
+.jacarta, .hanoi, .bogota, .sangpaulu{
+    padding: 33px 9px 10px 9px;
+}
+.jacarta h3, .hanoi h3, .bogota h3, .sangpaulu h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #E37373;
+    margin-bottom: 10px;
+}
+.jacarta h5, .hanoi h5, .bogota h5, .sangpaulu h5{
+    font-size: 14px;
+    font-weight: 300;
+    color: #E37373;
+    margin-bottom: 40px;
+}
+.jacarta p, .hanoi p, .bogota p, .sangpaulu p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #707070;
+    line-height: 20px;
+}
+.jacarta h6, .hanoi h6, .bogota h6, .sangpaulu h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: #707070;
+    float: right;
+    margin-top: 30px;
+}
+.bomb-text h3, .indobori-text h3, .bictoria-text h3, .gigantea-text h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #E37373;
+    margin-bottom: 10px;
+}
+.bomb-text h6, .indobori-text h6, .bictoria-text h6, .gigantea-text h6{
+    font-size: 16px;
+    font-weight: 300;
+    color: #E37373;
+    margin-bottom: 38px;
+}
+.bomb-text p, .indobori-text p, .bictoria-text p, .gigantea-text p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #707070;
+    /* margin-bottom: 10px; */
+}
+/* ------------------------------- */
+.flex_3_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 809px;
+}
+.jacarta{
+    border-bottom: none;
+}
+/* ---------------------------- */
+.flex_3_2{
+    display: flex;
+    position: relative;
+}
+.flex_3_2 .fall{
+    width: 454px;
+    height: 454px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: -98px;
+}
+.flex_3_2 .bomb-text{
+    margin-left: 133px;
+    padding: 45px 9px 10px 9px;
+    width: 676px;
+    text-align: right;
+    border-right: none;
+}
+/* ---------------------------------- */
+.flex_3_3{
+    margin-left: 93px;
+}
+.flex_3_3 .indobori-text{
+    border: none;
+    height: 363px;
+    background-color: #E5E5E5;
+    padding: 151px 9px 10px 9px;
+}
+.indobori-text p{
+    margin-bottom: 27px;
+    line-height: 20px;
+}
+.indobori-text h6{
+    color: #E37373;
+    margin-bottom: 7px;    
+}
+/* ---------------------------- */
+.flex_3_4{
+    margin-left: 93px;
+    display: flex;
+    position: relative;
+}
+.bg-indobori{
+    border: none;
+    width: 494px;
+    background-color: gray;
+}
+.bogota{
+    border-left: none;
+    border-right: none;
+}
+.sangpaulu{
+    height: 625px;
+    border: none;
+    background-color: #A1CCB7;
+}
+.sangpaulu p{
+    color: white;
+}
+.sangpaulu h6{
+    color: white;
+}
+.bictoria{
+    width: 670px;
+    height: 670px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+}
