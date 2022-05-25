@@ -79,6 +79,9 @@
     text-align: right;
     border-right: none;
 }
+.flex_3_2 .bomb-text p{
+    line-height: 20px;
+}
 /* ---------------------------------- */
 .flex_3_3{
     margin-left: 93px;
@@ -129,5 +132,29 @@
     border-radius: 50%;
     background-color: gray;
     position: absolute;
+    right: 0;
+    bottom: -420px;
 }
-/* -------------- */
+/* ====================== */
+.flex_3_5{
+    margin-left: 93px;
+    display: flex;
+}
+.bg-gigantea{
+    border: none;
+    background-color: gray;
+}
+.gigantea-text{
+    width: 1035px;
+    background-color: #E5E5E5;
+    padding: 45px 9px 10px 9px;
+}
+.gigantea-text p{
+    line-height: 20px;
+}
+.gigantea-text h6{
+    margin-bottom: 10px;
+}
+.gigantea-text h3{
+    margin-bottom: 38px;
+}

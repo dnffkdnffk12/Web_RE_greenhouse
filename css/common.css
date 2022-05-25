@@ -1,3 +1,5 @@
-section, footer{
+header, section, footer{
     padding: 0 220px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
