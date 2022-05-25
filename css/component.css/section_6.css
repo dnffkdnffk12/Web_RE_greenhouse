@@ -1,0 +1,19 @@
+.wrap_6 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #9A9A9A;
+    text-align: center;
+    padding: 600px 0 100px 0;
+}
+.bg-floor{
+    width: 1480px;
+    height: 744px;
+    background-color: gray;
+}
+.go{
+    font-size: 30px;
+    font-weight: 500;
+    color: #9A9A9A;
+    text-align: right;
+    padding: 60px 0 148px 0;
+}

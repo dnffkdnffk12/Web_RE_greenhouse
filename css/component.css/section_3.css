@@ -64,7 +64,7 @@
     display: flex;
     position: relative;
 }
-.flex_3_2 .fall{
+.fall{
     width: 454px;
     height: 454px;
     border-radius: 50%;
@@ -72,21 +72,25 @@
     position: absolute;
     top: -98px;
 }
-.flex_3_2 .bomb-text{
+.bomb-text{
     margin-left: 133px;
     padding: 45px 9px 10px 9px;
     width: 676px;
     text-align: right;
     border-right: none;
 }
-.flex_3_2 .bomb-text p{
+.bomb-text p{
     line-height: 20px;
+}
+.bg-bomb{
+    border: none;
+    background-color: gray;
 }
 /* ---------------------------------- */
 .flex_3_3{
     margin-left: 93px;
 }
-.flex_3_3 .indobori-text{
+.indobori-text{
     border: none;
     height: 363px;
     background-color: #E5E5E5;
@@ -105,6 +109,7 @@
     margin-left: 93px;
     display: flex;
     position: relative;
+    z-index: 9999;
 }
 .bg-indobori{
     border: none;
@@ -137,7 +142,7 @@
 }
 /* ====================== */
 .flex_3_5{
-    margin-left: 93px;
+    /* margin-left: 93px; */
     display: flex;
 }
 .bg-gigantea{
